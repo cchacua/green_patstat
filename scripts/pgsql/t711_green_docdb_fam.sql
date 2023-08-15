@@ -29,10 +29,10 @@ Time: 3043.521 ms (00:03.044)
 
 ---------------------------------------------------
 -- Tests
-SELECT COUNT(ytag),  COUNT(wipo_green), COUNT(envtech)
+SELECT COUNT(ytag) AS ytag,  COUNT(wipo_green) AS wipo_green, COUNT(envtech) AS envtech
 FROM glpatents202210.t711_green_docdb_fam;
 /*
-  count  |  count  |  count  
----------+---------+---------
- 3134380 | 6820493 | 4526830
+  ytag   | wipo_green | envtech 
+---------+------------+---------
+ 3134380 |    6820493 | 4526830
 */
