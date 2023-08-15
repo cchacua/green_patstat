@@ -29,6 +29,9 @@ Time: 3043.521 ms (00:03.044)
 
 ---------------------------------------------------
 -- Tests
+
+SELECT * FROM glpatents202210.t711_green_docdb_fam LIMIT 10;
+
 SELECT COUNT(ytag) AS ytag,  COUNT(wipo_green) AS wipo_green, COUNT(envtech) AS envtech
 FROM glpatents202210.t711_green_docdb_fam;
 /*
