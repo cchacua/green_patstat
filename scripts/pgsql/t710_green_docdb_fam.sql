@@ -60,12 +60,6 @@ Time: 2801670.308 ms (46:41.670)
 
 CREATE INDEX ON glpatents202210.t710_green_docdb_fam(doc_db_family_id);
 
-COPY glpatents202210.t710_green_docdb_fam TO '/home/input/gl_patents/20230815/t710_green_docdb_fam.csv' DELIMITER ',' CSV HEADER;
-/*
-COPY 15446342
-Time: 6722.196 ms (00:06.722)
-*/
-
 ---------------------------------------------------
 -- Tests
 SELECT * FROM glpatents202210.t710_green_docdb_fam LIMIT 100;
