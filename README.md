@@ -21,6 +21,6 @@ The following table shows the number of green patent families that have been ide
 
 
 ## Cite this repository
-If you use this software, please cite it:
+If you use this repository, please cite it:
 
 Chacua, C. (2023). green_patstat (Version 0.1) [Computer software]. https://github.com/cchacua/green_patstat
