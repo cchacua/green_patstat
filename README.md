@@ -12,4 +12,5 @@ Please refer to [`classifications/README.md`](https://github.com/cchacua/green_p
 
 ## Cite this repository
 If you use this software, please cite it:
+
 Chacua, C. (2023). green_patstat (Version 0.1) [Computer software]. https://github.com/cchacua/green_patstat
