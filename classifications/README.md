@@ -1,6 +1,4 @@
-# Readme: Classification tables
-
-## Classification methods
+# Readme: Classification methods
 
 - OECD's ENV-TECH: `ENVTECH_univoco.csv`. Source: Favot's et al (2023).
 
