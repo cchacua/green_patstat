@@ -7,7 +7,7 @@ authors:
   - family-names: Chacua
     given-names: Christian
     orcid: "https://orcid.org/0000-0002-0093-1847"
-version: 20230818
-date-released: "2023-08-15"
+version: 20230919
+date-released: "2023-09-19"
 license: CC-BY-4.0
 repository-code: "https://github.com/cchacua/green_patstat"
