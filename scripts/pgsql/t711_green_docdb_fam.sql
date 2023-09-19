@@ -17,15 +17,17 @@ SELECT a.doc_db_family_id,
 FROM glpatents202210.t710_green_docdb_fam a
 GROUP BY a.doc_db_family_id;
 /*
-INSERT 0 8752548
-Time: 23328.896 ms (00:23.329)
+INSERT 0 11101615
+Time: 29288.220 ms (00:29.288)
 */
 
-COPY glpatents202210.t711_green_docdb_fam TO '/home/input/gl_patents/20230815/t711_green_docdb_fam.csv' DELIMITER ',' CSV HEADER;
+COPY glpatents202210.t711_green_docdb_fam TO '/home/input/gl_patents/20230919/t711_green_docdb_fam.csv' DELIMITER ',' CSV HEADER;
 /*
-COPY 8752548
-Time: 3043.521 ms (00:03.044)
+COPY 11101615
+Time: 3743.724 ms (00:03.744)
 */
+
+CREATE INDEX ON glpatents202210.t711_green_docdb_fam(doc_db_family_id) TABLESPACE tblspc2;
 
 ---------------------------------------------------
 -- Tests
@@ -37,5 +39,5 @@ FROM glpatents202210.t711_green_docdb_fam;
 /*
   ytag   | wipo_green | envtech 
 ---------+------------+---------
- 3134380 |    6820493 | 4526830
+ 4422378 |    8348138 | 5989278
 */

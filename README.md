@@ -8,12 +8,11 @@ The file [`output/t711_green_docdb_fam.tar.gz`](https://github.com/cchacua/green
 
 Please refer to [`classifications/README.md`](https://github.com/cchacua/green_patstat/blob/main/classifications/README.md) for available methods to identify green patents. 
 
-The following table shows the number of green patent families that have been identified by each of the considered methods:
+The following table shows the number of green patent families that have been identified by each of the considered methods, on Patstat 2023a:
 
 |  ytag   | wipo_green | envtech |
 |---------|------------|---------|
-| 3134380 |    6820493 | 4526830 |
-
+| 4422378 |   8348138 | 5989278 |
 
 
 ## License
@@ -23,4 +22,4 @@ The following table shows the number of green patent families that have been ide
 ## Cite this repository
 If you use this repository, please cite it:
 
-Chacua, C. (2023). green_patstat (Version 20230818) [Dataset]. https://github.com/cchacua/green_patstat
+Chacua, C. (2023). green_patstat (Version 20230919) [Dataset]. https://github.com/cchacua/green_patstat
